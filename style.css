@@ -1,19 +1,30 @@
 /* Desktop View */
-h1 {
-    color: orange; 
-    font-family:'Courier New', Courier, monospace; 
+
+.container {
+    /* this is the container that will hold all of 
+    the reactive elements */
+    background-color: gray; 
+    min-height: 500px; 
+    /* max-width can go up to this width but no
+    greater than this width */
+    max-width: 1024; 
+    margin: 0 auto; 
 }
+
+
 /* tablet view */
 @media (max-width: 768px){
-    h1 {
-        color: blue; 
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    }
+
+ 
+
+
+
 }
 /* Mobile View set between 360 - 500 */
 /* for easy testing we set at 500 */
 @media (max-width: 500px){
-    h1{
-        color: greenyellow; 
-    }
+
+
+
+
 }
